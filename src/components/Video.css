@@ -1,0 +1,12 @@
+/* Video.css */
+
+.video-container {
+    margin: 20px;
+    margin-bottom: 500px;
+  }
+  
+  video {
+    max-width: 100%;
+    display: block;
+  }
+  

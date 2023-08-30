@@ -1,0 +1,10 @@
+.footer {
+    background-color: #f2f2f2;
+    padding: 5px;
+    /* Other styles */
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0 !important; /* Stick to the bottom */
+  }
+  
