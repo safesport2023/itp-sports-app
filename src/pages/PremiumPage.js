@@ -11,7 +11,7 @@ const youtubeEmbedLink = 'https://www.youtube.com/embed/KaT4Y4dYzMs';
 const PremiumPage = () => {
     return (
         <Authenticator>
-            {({ signOut }) => (
+            {({ signOut, user }) => (
                 <div>
                     <h1> Hello Welcome to ITP sports education site</h1>
                     <h3> you are now logged in</h3>
@@ -20,6 +20,7 @@ const PremiumPage = () => {
                 </div>
             )}
         </Authenticator>
+
     )
 };
 
