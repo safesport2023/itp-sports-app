@@ -1,6 +1,22 @@
 .header {
-    background-color: #f2f2f2;
+    background-color: #C1C1C1;
     padding: 10px;
     /* Other styles */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
   }
-  
+  .logo {
+    max-height: 100px;
+  }
+
+  .header-left {
+     
+  }
+
+  .header-right {
+
+  }

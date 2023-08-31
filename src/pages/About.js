@@ -1,7 +1,11 @@
 import './About.css'
 
 const About = () => {
-    return <h1> This is the about page</h1>;
+    return (
+        <div className='about-page'>
+            <h1> This is the about page</h1>
+        </div>
+    );
 };
 
 export default About;

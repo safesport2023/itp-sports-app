@@ -5,5 +5,28 @@
 
 .content {
   margin: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #30363b; /* Adjust the color as needed */
+  text-decoration: none;
+  transition: color 0.3 ease, transform 0.3s ease; /* Add a smooth color transition */
+  transform-origin: center bottom; /* Set the transform origin */
+  overflow: hidden !important;
 }
 
+/* .content:hover {
+  color: #101820;
+  transform: scale(1.1);
+  overflow: hidden !important;
+} */
+
+.active {
+  color: #101820;
+  font-size: 22px;
+}
+.app {
+  min-height: 800px;
+}

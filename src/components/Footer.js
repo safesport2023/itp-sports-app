@@ -5,12 +5,12 @@ import './Footer.css';
 // import PremiumPage from './pages/PremiumPage';
 // import NavLink from 'react-router-dom';
 
-function Header() {
+function Footer() {
     return (
-        <header className="footer">
-            {<h2>Footer</h2>}
-        </header>
+        <footer className="footer">
+            <h2>Footer</h2>
+        </footer>
     );
 }
 
-export default Header;
+export default Footer;

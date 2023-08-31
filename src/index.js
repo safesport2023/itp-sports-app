@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Amplify } from 'aws-amplify';
 import config from './aws-exports';
-import { StrictMode } from 'react';
+import StrictMode from 'react';
 import Footer from './components/Footer';
 // import Header from './components/Header';
 // Remove import for createRoot since you're not using it
@@ -17,8 +17,10 @@ ReactDOM.render(
 
     <App />
     <Footer />
-  </React.StrictMode>,
+  </React.StrictMode>
+  ,
   document.getElementById('root')
+
 );
 
 reportWebVitals();
