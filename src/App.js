@@ -7,6 +7,8 @@ import PremiumPage from './pages/PremiumPage';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import HeroMsg from './pages/HeroMsg';
+import Resources from './pages/Resources';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <NavLink className="content" activeClassName="active" to="/about">About</NavLink>
           <NavLink className="content" activeClassName="active" to="/premium">Premium Content</NavLink>
           <NavLink className="content" activeClassName="active" to="/HeroMsg">Hear From Your Heroes</NavLink>
+          <NavLink className="content" activeClassName="active" to="/Resources">Resources</NavLink>
         </div>
 
 
