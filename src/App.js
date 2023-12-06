@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 import Home from './pages/Home';
 import About from './pages/About';
 import PremiumPage from './pages/PremiumPage';
-import Footer from './components/Footer';
+
 import Header from './components/Header';
 import HeroMsg from './pages/HeroMsg';
-import Resources from './pages/Resources';
+
 
 
 function App() {
