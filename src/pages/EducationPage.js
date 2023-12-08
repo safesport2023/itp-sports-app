@@ -1,6 +1,6 @@
 import { Authenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
-import './PremiumPages.css';
+import './EducationPages.css';
 import React from 'react';
 import Video from '../components/Video'; // Make sure the path is correct
 
@@ -8,9 +8,9 @@ import Video from '../components/Video'; // Make sure the path is correct
 
 
 const youtubeEmbedLink = 'https://www.youtube.com/embed/KaT4Y4dYzMs';
-const PremiumPage = () => {
+const EducationPage = () => {
     return (
-        <div className='premium-page'>
+        <div className='education-page'>
             <Authenticator>
                 {({ signOut, user }) => (
                     <div className='other'>
@@ -28,6 +28,6 @@ const PremiumPage = () => {
     )
 };
 
-export default PremiumPage;
+export default EducationPage;
 
 

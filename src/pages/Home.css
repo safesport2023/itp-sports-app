@@ -1,7 +1,55 @@
 .home-page {
-    height: 900px
+    height: 100vh;
+    background: url('../../public/assets/Stock6triangle.png') no-repeat center top,
+        url('../../public/assets/Stock1.png') no-repeat center bottom;
+
+    Background-size: cover;
 }
 
-.home-page h1{
+.home-page h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.video-Container {
+    padding: 20px;
+}
+
+.signOut-btn {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.signOut-btn:hover {
+    background-color: #e68a00;
+}
+
+.education-page {
+    /* height: 900px !important; */
+}
+
+.amplify-button {
+    background-color: #FEC62D;
+    color: rgb(31, 31, 31);
+}
+
+/* .amplify-tabs-item:hover {
+    color: #FEC62D;
+    border-color: #FEC62D;
+}
+
+.amplify-tabs-item:active {
+    color: #FEC62D;
+    border-color: #FEC62D;
+} */
+
+.auth-block {
+    padding-top: 18rem;
+    padding-bottom: 5rem;
+
 }

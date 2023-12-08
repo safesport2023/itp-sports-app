@@ -21,7 +21,7 @@
   overflow: hidden !important;
   background-color: #101820;
   padding-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   padding-left: 15px;
   padding-right: 15px;
 
@@ -43,8 +43,4 @@
   padding-top: 2px;
   margin-bottom: 45px;
   border-radius: 5px;
-}
-
-.app {
-  min-height: 800px;
 }
