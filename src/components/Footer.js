@@ -8,7 +8,18 @@ import './Footer.css';
 function Footer() {
     return (
         <footer className="footer">
-            <h2>Footer</h2>
+            <div className="footer-content">
+                {/* Left Section (Logo) */}
+                <div className="footer-logo">
+                    <img src="path/to/your/logo.png" alt="Logo" />
+                </div>
+
+                {/* Right Section (Email and Phone) */}
+                <div className="footer-contact">
+                    <p>Email: your@email.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+            </div>
         </footer>
     );
 }

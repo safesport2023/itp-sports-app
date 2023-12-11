@@ -1,7 +1,7 @@
 .home-page {
-    height: 100vh;
-    background: url('../../public/assets/Stock6triangle.png') no-repeat center top,
-        url('../../public/assets/Stock1.png') no-repeat center bottom;
+    /* height: 100vh; */
+    background: url('../../public/assets/stock6redtriangle.png') no-repeat center top,
+        url('../../public/assets/stock1redtriangle.png') no-repeat center bottom;
 
     Background-size: cover;
 }
@@ -34,22 +34,58 @@
 }
 
 .amplify-button {
-    background-color: #FEC62D;
+    background-color: #Ff3131;
     color: rgb(31, 31, 31);
 }
 
 /* .amplify-tabs-item:hover {
-    color: #FEC62D;
-    border-color: #FEC62D;
+    color: #ff3131;
+    border-color: #ff3131;
 }
 
 .amplify-tabs-item:active {
-    color: #FEC62D;
-    border-color: #FEC62D;
+    color: #ff3131;
+    border-color: #ff3131;
 } */
 
 .auth-block {
     padding-top: 18rem;
     padding-bottom: 5rem;
 
+
 }
+
+.amplify-button {
+    color: #e68a00;
+}
+
+
+.welcome-statement {
+    max-width: 600px;
+    /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    /* Center the text block on the page */
+    padding: 20px;
+    /* Add some padding for breathing space */
+    font-family: 'Arial', sans-serif;
+    /* Choose a suitable font */
+    font-size: 16px;
+    /* Adjust the font size as needed */
+    line-height: 1.5;
+    /* Set the line height for better readability */
+    color: #333;
+    /* Set the text color */
+    background-color: #f8f8f8;
+    /* Set a light background color */
+    border-radius: 8px;
+    /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+    margin-bottom: 100px;
+}
+
+.welcome-statement:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.data-amplify-authenticator {}

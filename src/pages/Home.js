@@ -5,6 +5,7 @@ import './EducationPages.css';
 import React from 'react';
 import Video from '../components/Video'; // Make sure the path is correct
 
+
 const youtubeEmbedLink = 'https://www.youtube.com/embed/KaT4Y4dYzMs';
 const Home = () => {
     return (
