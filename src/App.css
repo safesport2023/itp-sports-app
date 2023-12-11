@@ -3,6 +3,19 @@
   /* background-color: aqua; */
 }
 
+.App {
+  /* height: 100vh; */
+  background: url('../public/assets/stock6redtriangle.png') no-repeat center top,
+    url('../public/assets/stock1redtriangle.png') no-repeat center bottom;
+
+  background-size: cover;
+  min-height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+
 .content {
   /*margin: 1em;*/
   display: flex;
@@ -19,7 +32,7 @@
   transform-origin: center bottom;
   /* Set the transform origin */
   overflow: hidden !important;
-  background-color: #101820;
+  background-color: #3b3b3b;
   padding-top: 20px;
   margin-bottom: 0px;
   padding-left: 15px;
@@ -37,7 +50,7 @@
 .active {
   color: #101820;
   font-size: 22px;
-  background-color: #ff3131;
+  background-color: white;
   /* background: linear-gradient(to top, #ffffff, #ffd8d8, #ff3131); */
   padding-left: 15px;
   padding-right: 15px;

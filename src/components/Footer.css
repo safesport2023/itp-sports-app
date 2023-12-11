@@ -1,32 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .footer {
-  background-color: #f2f2f2;
+  background-color: #3b3b3b;
   padding: 15px;
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  /* Make the footer a positioned container */
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
+  /* Separate items with space between them */
   align-items: center;
+  max-width: max-content;
+  /* Set a max-width for the content */
+  margin: 0 auto;
+  /* Center the content horizontally */
 }
 
 .footer-logo {
-  margin-right: auto;
-  /* Pushes the logo to the left without being fully left */
+  /* You can adjust the max-width if needed */
 }
 
 .footer-logo img {
-  max-width: 100px;
-  /* Adjust the max-width as needed for your logo */
+  max-height: 90px;
 }
 
 .footer-contact {
   text-align: right;
-  margin-left: auto;
-  /* Pushes the contact info to the right without being fully right */
+  position: absolute;
+  /* Position the contact info to the right */
+  right: 15px;
+  /* Adjust the distance from the right */
 }
 
 /* Optional: Style the contact info */
 .footer-contact p {
   margin: 5px 0;
+  padding-right: 25px;
 }

@@ -11,12 +11,12 @@ function Footer() {
             <div className="footer-content">
                 {/* Left Section (Logo) */}
                 <div className="footer-logo">
-                    <img src="path/to/your/logo.png" alt="Logo" />
+                    <img src='../assets/safesportlogo.png' alt="Logo" />
                 </div>
 
                 {/* Right Section (Email and Phone) */}
                 <div className="footer-contact">
-                    <p>Email: your@email.com</p>
+                    <p>Email: placeholder@email.com</p>
                     <p>Phone: (123) 456-7890</p>
                 </div>
             </div>

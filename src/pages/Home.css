@@ -1,10 +1,4 @@
-.home-page {
-    /* height: 100vh; */
-    background: url('../../public/assets/stock6redtriangle.png') no-repeat center top,
-        url('../../public/assets/stock1redtriangle.png') no-repeat center bottom;
-
-    Background-size: cover;
-}
+.home-page {}
 
 .home-page h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
