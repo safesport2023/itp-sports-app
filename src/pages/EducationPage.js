@@ -3,12 +3,13 @@ import '@aws-amplify/ui-react/styles.css';
 import './EducationPages.css';
 import React from 'react';
 import { useState } from 'react';
+import Video1 from '../components/promoVideo';
 // import Video from '../components/promoVideo'; // Make sure the path is correct
 
 
 
 
-// const youtubeEmbedLink = 'https://www.youtube.com/embed/KaT4Y4dYzMs';
+const youtubeEmbedLink = 'https://www.youtube.com/embed/KaT4Y4dYzMs';
 const EducationPage = () => {
     const [watchedVideos, setWatchedVideos] = useState([1]); // First video is initially watched
 
@@ -26,7 +27,7 @@ const EducationPage = () => {
             <Authenticator className="auth-block">
                 {({ signOut, user }) => (
                     <div className="video-container">
-                        {/* Video 1 */}
+                        <Video1 videoEmbedLink={youtubeEmbedLink} />
                         {watchedVideos.includes(1) ? (
                             <div className="video-card">
                                 <h3>Video 1</h3>
