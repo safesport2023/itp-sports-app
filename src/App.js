@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 import Home from './pages/Home';
 import About from './pages/About';
 import EducationPage from './pages/EducationPage';
-
+import Resources from './pages/Resources';
 import Header from './components/Header';
 import HeroMsg from './pages/HeroMsg';
 
@@ -30,6 +30,7 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/education" element={<EducationPage />}></Route>
           <Route path="/HeroMsg" element={<HeroMsg />}></Route>
+          <Route path="/Resources" element={<Resources />}></Route>
         </Routes>
 
       </Router>

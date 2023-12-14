@@ -5,18 +5,19 @@
 }
 
 .video-Container {
-    padding: 20px;
+    padding-bottom: 200px;
 }
 
 .signOut-btn {
-    background-color: #ff9900;
-    color: white;
+    background-color: #FF3131 !important;
+    color: whitesmoke;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+
 }
 
 .signOut-btn:hover {
@@ -43,14 +44,14 @@
 } */
 
 .auth-block {
-    padding-top: 18rem;
-    padding-bottom: 5rem;
+    padding-top: 5rem;
 
+    width: auto;
 
 }
 
 .amplify-button {
-    color: #e68a00;
+    color: #FF3131;
 }
 
 
@@ -69,13 +70,14 @@
     /* Set the line height for better readability */
     color: #333;
     /* Set the text color */
-    background-color: #f8f8f8;
+    background-color: #f8f8f8dd;
     /* Set a light background color */
     border-radius: 8px;
     /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* Add a subtle box shadow */
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .welcome-statement:hover {
@@ -83,3 +85,16 @@
 }
 
 .data-amplify-authenticator {}
+
+.logout-btn {
+    display: flex;
+    justify-content: right;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+/* .gap-container {
+    
+    max-width: 400px;
+    min-height: 800px;
+} */

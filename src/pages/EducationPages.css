@@ -3,7 +3,7 @@
 }
 
 .signOut-btn {
-  background-color: #ff9900;
+  background-color: #ff3131;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -14,7 +14,13 @@
 }
 
 .signOut-btn:hover {
-  background-color: #e68a00;
+  background-color: #ff3131;
 }
 
-.education-page {}
+.education-page {
+  min-height: 1538px;
+}
+
+.auth-block {
+  margin-top: 10rem;
+}

@@ -5,7 +5,9 @@ import React from 'react';
 const HeroMsg = () => {
     return (
         <div className='hero-messages'>
-            <h1> Welcome to ITP sports education site</h1>
+            <div className='content-section'>
+                <h1> This is where the messages from the athletes will be displayed </h1>
+            </div>
         </div>
     )
 };

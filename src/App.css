@@ -5,13 +5,16 @@
 
 .App {
   /* height: 100vh; */
-  background: url('../public/assets/stock6redtriangle.png') no-repeat center top,
-    url('../public/assets/stock1redtriangle.png') no-repeat center bottom;
+  background: url('../public/assets/fullbackground.png') no-repeat center top;
 
   background-size: cover;
-  min-height: 100vh !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position-y: 100px;
+  min-width: 100vh !important;
   margin: 0 !important;
-  padding: 0 !important;
+  padding-top: 0 !important;
+  /* max-height: 800px !important; */
 }
 
 
