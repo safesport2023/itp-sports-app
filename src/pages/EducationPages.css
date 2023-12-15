@@ -24,3 +24,8 @@
 .auth-block {
   margin-top: 10rem;
 }
+
+.lockedVideo {
+  width: 560px;
+  height: 315px;
+}

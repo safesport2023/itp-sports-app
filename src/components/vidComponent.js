@@ -1,6 +1,6 @@
 import React from 'react';
 import './vidComponent.css';
-const Video = ({ videoPath }) => {
+const Video = ({ videoEmbedLink }) => {
     return (
         <div>
             <div className="video-container">
@@ -12,9 +12,7 @@ const Video = ({ videoPath }) => {
                     frameBorder="0"
                     allowFullScreen
                 />
-                <div className='videoTitle'>
-                    <h2 className='title-font'>placeholder for promo video</h2>
-                </div>
+
 
             </div>
 
