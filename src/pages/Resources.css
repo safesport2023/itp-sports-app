@@ -87,3 +87,21 @@
     /* Add some spacing above and below the line */
     display: inline-block;
 }
+
+.image-links1 {
+    max-height: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.image-links2 {
+    max-height: 80px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.image-links3 {
+    max-height: 120px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

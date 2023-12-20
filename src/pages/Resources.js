@@ -1,4 +1,7 @@
 import './Resources.css'
+import KidsHelpPhoneLogo from '../assets/Kids-Help-Phone-Logo.png'
+import CCCPlogo from '../assets/CCCP-logo.png'
+import AbuseFreeSport from '../assets/AFSSA.png'
 // eslint-disable-next-line
 const Resources = () => {
     return (
@@ -20,31 +23,26 @@ const Resources = () => {
 
 
 
-                <h3>
-                    Kids help phone
-                </h3>
-                <h3>
-                    {/*  eslint-disable-next-line */}
-                    <a href='https://kidshelpphone.ca/need-help-now-text-us/' target="_blank">https://kidshelpphone.ca/need-help-now-text-us/</a>
-                </h3>
-
-
-                <h3>
-                    Abuse Free Sport
-                </h3>
 
                 <h3>
                     {/*  eslint-disable-next-line */}
-                    <a href='https://abuse-free-sport.ca/' target="_blank"> https://abuse-free-sport.ca/</a>
+                    <a href='https://kidshelpphone.ca/need-help-now-text-us/' target="_blank"><img className="image-links1" src={KidsHelpPhoneLogo} alt="Kids Helpphone" ></img> </a>
                 </h3>
 
 
-                <h3>
-                    Center for Child Protection
-                </h3>
+
+
                 <h3>
                     {/*  eslint-disable-next-line */}
-                    <a href="https://www.protectchildren.ca/en/" target="_blank">https://abuse-free-sport.ca/
+                    <a href='https://abuse-free-sport.ca/' target="_blank"> <img className="image-links2" src={AbuseFreeSport} alt="Abuse Free Sport" ></img></a>
+                </h3>
+
+
+
+
+                <h3>
+                    {/*  eslint-disable-next-line */}
+                    <a href="https://www.protectchildren.ca/en/" target="_blank"><img className="image-links3" src={CCCPlogo} alt="Center for Child Protection" ></img>
                     </a>
 
                 </h3>
